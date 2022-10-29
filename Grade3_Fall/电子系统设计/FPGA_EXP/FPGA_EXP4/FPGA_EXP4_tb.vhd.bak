@@ -1,0 +1,42 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA_EXP4_tb is
+end FPGA_EXP4_tb;
+
+architecture arch_FPGA_EXP4_tb of FPGA_EXP4_tb is
+
+	component FPGA_EXP4
+		port(clk: in std_logic;
+		segment: out std_logic_vector(6 downto 0);
+		row: in std_logic_vector(3 downto 0);
+		column: out std_logic_vector(3 downto 0);
+		COM：out std_logic;
+		);
+	end component;
+	signal clk: std_logic;
+	signal COM: std_logic := '1';
+	signal segment: std_logic_vector(6 downto 0);
+	signal row: std_logic_vector(3 downto 0);
+	signal column: std_logic_vector(3 downto 0);
+begin
+	u_tb: FPGA_EXP4 port map (clk, segment, row, column, COM);
+	p1: process
+	begin
+		clk <= '0';
+		wait for 10 ns;
+		clk <= '1';
+		wait for 10 ns;
+	end process;
+	
+	p2: process
+	begin
+		row <= "1110";
+		wait for 100 ns;
+		row <= "1101";
+		wait for 100 ns;
+		row <= "1011";
+		wait for 100 ns;
+		row <= "0111";
+		wait for 100 ns;
+	end process;

@@ -1,0 +1,257 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/users/etcis_ustc/Desktop/FPGA_EXP4/simulation/modelsim
+T_opt
+!s110 1666349290
+Vl=C5I7AR8c32kDK1n4Sn<1
+04 12 17 work fpga_exp4_tb arch_fpga_exp4_tb 1
+=1-6c0b8490e0a0-635278e9-202-854
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.7;67
+Ecounter4
+Z1 w1666271644
+Z2 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z3 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z4 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z5 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+R0
+Z6 8C:/Users/etcis_ustc/Desktop/FPGA_EXP4/Counter4.vhd
+Z7 FC:/Users/etcis_ustc/Desktop/FPGA_EXP4/Counter4.vhd
+l0
+L5
+VRdMSUbZ?`aRhhB9]ln`S[1
+!s100 S?KNi7z_?JU0iHRB?<AIa2
+Z8 OL;C;10.7;67
+31
+Z9 !s110 1666349288
+!i10b 1
+Z10 !s108 1666349288.000000
+Z11 !s90 -reportprogress|300|-93|-work|work|C:/Users/etcis_ustc/Desktop/FPGA_EXP4/Counter4.vhd|
+Z12 !s107 C:/Users/etcis_ustc/Desktop/FPGA_EXP4/Counter4.vhd|
+!i113 0
+Z13 o-93 -work work
+Z14 tExplicit 1 CvgOpt 0
+Aarch_counter4
+R2
+R3
+R4
+R5
+DEx4 work 8 counter4 0 22 RdMSUbZ?`aRhhB9]ln`S[1
+l13
+L11
+V<HMbFQ5iYJl:fk`?TJ<hY1
+!s100 JQ5]7Se6JU_I;i1ohIdn12
+R8
+31
+R9
+!i10b 1
+R10
+R11
+R12
+!i113 0
+R13
+R14
+Edecoder24
+Z15 w1666246126
+R4
+R5
+R0
+Z16 8C:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder24.vhd
+Z17 FC:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder24.vhd
+l0
+L4
+VVY?J5c]<nkSXWXO`[9:F`2
+!s100 K0I>QUMMhHb:XRGV3lbS01
+R8
+31
+R9
+!i10b 1
+R10
+Z18 !s90 -reportprogress|300|-93|-work|work|C:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder24.vhd|
+Z19 !s107 C:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder24.vhd|
+!i113 0
+R13
+R14
+Aarch_decoder24
+R4
+R5
+DEx4 work 9 decoder24 0 22 VY?J5c]<nkSXWXO`[9:F`2
+l11
+L10
+VYI7W3OHS0D4DQNI1nhF;T2
+!s100 ;^_il?Aa@;<g7jbmJCOdP2
+R8
+31
+R9
+!i10b 1
+R10
+R18
+R19
+!i113 0
+R13
+R14
+Edecoder47
+Z20 w1666273518
+R4
+R5
+R0
+Z21 8C:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder47.vhd
+Z22 FC:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder47.vhd
+l0
+L4
+VRnkiO9o8ofcR]`oGzTY8N2
+!s100 :kOeO7gX7IMmY?mK_X@`z3
+R8
+31
+R9
+!i10b 1
+R10
+Z23 !s90 -reportprogress|300|-93|-work|work|C:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder47.vhd|
+Z24 !s107 C:/Users/etcis_ustc/Desktop/FPGA_EXP4/decoder47.vhd|
+!i113 0
+R13
+R14
+Aarch_decoder47
+R4
+R5
+DEx4 work 9 decoder47 0 22 RnkiO9o8ofcR]`oGzTY8N2
+l11
+L10
+VPJ`Z:A;Lk97K[S0<AEJ?:0
+!s100 `C;B7YE?OR^6khmPX3<HT0
+R8
+31
+R9
+!i10b 1
+R10
+R23
+R24
+!i113 0
+R13
+R14
+Edriver
+Z25 w1666348922
+R4
+R5
+R0
+Z26 8C:/Users/etcis_ustc/Desktop/FPGA_EXP4/driver.vhd
+Z27 FC:/Users/etcis_ustc/Desktop/FPGA_EXP4/driver.vhd
+l0
+L4
+V1lmX4Hd:o>o4@b98F>a`S1
+!s100 ORWLY25=>?Chm9a1ekj`o0
+R8
+31
+R9
+!i10b 1
+R10
+Z28 !s90 -reportprogress|300|-93|-work|work|C:/Users/etcis_ustc/Desktop/FPGA_EXP4/driver.vhd|
+Z29 !s107 C:/Users/etcis_ustc/Desktop/FPGA_EXP4/driver.vhd|
+!i113 0
+R13
+R14
+Aarch_driver
+R4
+R5
+DEx4 work 6 driver 0 22 1lmX4Hd:o>o4@b98F>a`S1
+l14
+L13
+V`>LS4f>>jn?IZ;N3>6z]b0
+!s100 _BN^ODiB@5:kH]5?Sz@=G0
+R8
+31
+R9
+!i10b 1
+R10
+R28
+R29
+!i113 0
+R13
+R14
+Efpga_exp4
+Z30 w1666349165
+R4
+R5
+R0
+Z31 8C:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4.vhd
+Z32 FC:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4.vhd
+l0
+L4
+V8P6L6QC`UbXCM10IKZ=9k0
+!s100 ff7QXKe=K41JO0Le=LoSb0
+R8
+31
+R9
+!i10b 1
+R10
+Z33 !s90 -reportprogress|300|-93|-work|work|C:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4.vhd|
+Z34 !s107 C:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4.vhd|
+!i113 0
+R13
+R14
+Aarch_fpga_exp4
+R4
+R5
+DEx4 work 9 fpga_exp4 0 22 8P6L6QC`UbXCM10IKZ=9k0
+l61
+L13
+V0`4?zzeIoR:I^jobc2M[K3
+!s100 OGRz;_VB?O=fP2k3lLHI31
+R8
+31
+R9
+!i10b 1
+R10
+R33
+R34
+!i113 0
+R13
+R14
+Efpga_exp4_tb
+Z35 w1666272760
+R4
+R5
+R0
+Z36 8C:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4_tb.vhd
+Z37 FC:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4_tb.vhd
+l0
+L4
+V3TcXgK0V^a;7[8z[BWJEB2
+!s100 fGkihmOHc<BJjHJQX_aNh3
+R8
+31
+R9
+!i10b 1
+R10
+Z38 !s90 -reportprogress|300|-93|-work|work|C:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4_tb.vhd|
+Z39 !s107 C:/Users/etcis_ustc/Desktop/FPGA_EXP4/FPGA_EXP4_tb.vhd|
+!i113 0
+R13
+R14
+Aarch_fpga_exp4_tb
+R4
+R5
+DEx4 work 12 fpga_exp4_tb 0 22 3TcXgK0V^a;7[8z[BWJEB2
+l23
+L7
+VenA?b3WB[0`=P7MhA7mPa2
+!s100 5^^zhQem5GJN5I0bT7Le82
+R8
+31
+R9
+!i10b 1
+R10
+R38
+R39
+!i113 0
+R13
+R14

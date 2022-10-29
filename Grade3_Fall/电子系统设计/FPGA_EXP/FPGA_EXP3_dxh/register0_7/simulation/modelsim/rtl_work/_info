@@ -1,0 +1,174 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/simulation/modelsim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1665745110
+VJFnMdBcTYjmI;8gQOhVJE0
+04 14 19 work register0_7_tb arch_register0_7_tb 1
+=1-dc1ba1b8cf04-634940d6-330-1010
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+n@_opt
+OL;O;10.2c;57
+Edecoder38
+Z2 w1665727098
+Z3 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z5 dD:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/simulation/modelsim
+Z6 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd
+Z7 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd
+l0
+L4
+V<dO]ANnnIIMf?E3lK_aSa2
+Z8 OL;C;10.2c;57
+31
+R1
+Z9 !s108 1665745110.151000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd|
+Z11 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd|
+Z12 o-93 -work work
+Z13 tExplicit 1
+!s100 eT:oPil11Z@V`@UXXO@:`2
+!i10b 1
+!i111 0
+Aarch_decoder38
+R3
+R4
+DEx4 work 9 decoder38 0 22 <dO]ANnnIIMf?E3lK_aSa2
+l11
+L10
+VGb@i9XOTYOGnV<[UIaK[A1
+R8
+31
+R1
+R9
+R10
+R11
+R12
+R13
+!s100 EWOL7j1;Rl;2EB>8`3^]03
+!i10b 1
+!i111 0
+Elatch4
+Z14 w1665730706
+R3
+R4
+R5
+Z15 8D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/latch4.vhd
+Z16 FD:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/latch4.vhd
+l0
+L4
+Vc;A]GLgnRdoA66Id>HT0V0
+R8
+31
+R1
+Z17 !s108 1665745110.294000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/latch4.vhd|
+Z19 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/latch4.vhd|
+R12
+R13
+!s100 NOYDJK0lfMhe=E4GC3b?M0
+!i10b 1
+!i111 0
+Aarch_latch4
+R3
+R4
+DEx4 work 6 latch4 0 22 c;A]GLgnRdoA66Id>HT0V0
+l12
+L11
+Vjn87kheN:7nPY1aMFl`WF0
+R8
+31
+R1
+R17
+R18
+R19
+R12
+R13
+!s100 l@7Bi6?3TkNa0JM?8O7Jf2
+!i10b 1
+!i111 0
+Eregister0_7
+Z20 w1665673214
+R3
+R4
+R5
+Z21 8D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7.vhd
+Z22 FD:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7.vhd
+l0
+L4
+VWXM[Y5=@c@;@aOcl2CRE^2
+R8
+31
+R1
+Z23 !s108 1665745110.386000
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7.vhd|
+Z25 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7.vhd|
+R12
+R13
+!s100 DL26RNeNh<XkGS6CBO@gZ0
+!i10b 1
+!i111 0
+Aarch_register0_7
+R3
+R4
+DEx4 work 11 register0_7 0 22 WXM[Y5=@c@;@aOcl2CRE^2
+l29
+L12
+VoW8R76VLPYH`H:4Ho1A>L3
+R8
+31
+R1
+R23
+R24
+R25
+R12
+R13
+!s100 >WMoJ>7B<LRme6__Ni3PX3
+!i10b 1
+!i111 0
+Eregister0_7_tb
+Z26 w1665731631
+R3
+R4
+R5
+Z27 8D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7_tb.vhd
+Z28 FD:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7_tb.vhd
+l0
+L4
+VI86h<C5R556m>PJ<8UV[_3
+R8
+31
+R1
+Z29 !s108 1665745110.488000
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7_tb.vhd|
+Z31 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/register0_7/register0_7_tb.vhd|
+R12
+R13
+!s100 f9hJFN@gLiYNb=Z]oUkf@0
+!i10b 1
+!i111 0
+Aarch_register0_7_tb
+R3
+R4
+DEx4 work 14 register0_7_tb 0 22 I86h<C5R556m>PJ<8UV[_3
+l21
+L7
+V[5za^ZAD44X6Jckm9zgz:0
+R8
+31
+R1
+R29
+R30
+R31
+R12
+R13
+!s100 4CzYbZd?@l[ke98QSkgDH1
+!i10b 1
+!i111 0

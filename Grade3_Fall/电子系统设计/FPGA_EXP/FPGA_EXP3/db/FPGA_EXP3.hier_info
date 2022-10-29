@@ -1,0 +1,82 @@
+|FPGA_EXP3
+clk => FD:u5.clk
+reset => seq_gen1:u1.reset
+reset => seq_gen2:u2.reset
+reset => seq_detector:u4.reset
+sel => selector:u3.sel
+seq_output <= selector:u3.seq
+detector_out <= seq_detector:u4.detector_out
+
+
+|FPGA_EXP3|seq_gen1:u1
+clk => st~1.DATAIN
+reset => st~3.DATAIN
+seq1 <= seq1.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP3|seq_gen2:u2
+clk => st~1.DATAIN
+reset => st~3.DATAIN
+seq2 <= seq2.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP3|selector:u3
+sel => seq.OUTPUTSELECT
+seq_1 => seq.DATAB
+seq_2 => seq.DATAA
+seq <= seq.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP3|seq_detector:u4
+clk => st~1.DATAIN
+reset => st~3.DATAIN
+datainput => Selector0.IN8
+datainput => Selector1.IN4
+datainput => st.DATAB
+datainput => st.DATAB
+datainput => st.DATAB
+datainput => st.DATAB
+datainput => st.DATAB
+datainput => Selector0.IN1
+datainput => Selector0.IN2
+datainput => Selector0.IN3
+datainput => Selector0.IN4
+datainput => Selector0.IN5
+datainput => Selector0.IN6
+datainput => Selector1.IN1
+datainput => st.DATAB
+datainput => st.DATAB
+datainput => st.DATAB
+detector_out <= detector_out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP3|FD:u5
+clk => newclk~reg0.CLK
+clk => num[0].CLK
+clk => num[1].CLK
+clk => num[2].CLK
+clk => num[3].CLK
+clk => num[4].CLK
+clk => num[5].CLK
+clk => num[6].CLK
+clk => num[7].CLK
+clk => num[8].CLK
+clk => num[9].CLK
+clk => num[10].CLK
+clk => num[11].CLK
+clk => num[12].CLK
+clk => num[13].CLK
+clk => num[14].CLK
+clk => num[15].CLK
+clk => num[16].CLK
+clk => num[17].CLK
+clk => num[18].CLK
+clk => num[19].CLK
+clk => num[20].CLK
+clk => num[21].CLK
+clk => num[22].CLK
+clk => num[23].CLK
+clk => num[24].CLK
+newclk <= newclk~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

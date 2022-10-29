@@ -1,0 +1,10 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA_EXP3_dxh is
+	port(sel: in std_logic_vector (2 downto 0);
+	datain: in std_logic_vector(3 downto 0);
+	en: in std_logic;
+	LED_cs: out std_logic;
+	nixie: out std_logic_vector(6 downto 0)
+	);

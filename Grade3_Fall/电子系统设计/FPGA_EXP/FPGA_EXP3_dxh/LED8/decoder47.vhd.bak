@@ -1,0 +1,24 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity decoder47 is
+	port(
+	A: in std_logic_vector (3 downto 0);
+	B: out std_logic_vector (7 downto 0));
+end decoder47;
+
+architecture arch_decoder47 of decoder47 is
+begin
+	with A select
+		B <= "" when "0000", 
+			  "" when "0001",
+			  "" when "0010",
+			  "" when "0011",
+			  "" when "0100",
+			  "" when "0101",
+			  "" when "0110",
+			  "" when "0111",
+			  "" when "1000",
+			  "" when "1001",
+			  "" when others;
+end arch_decoder38;

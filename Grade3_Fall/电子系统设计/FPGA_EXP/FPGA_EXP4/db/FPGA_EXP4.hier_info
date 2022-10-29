@@ -1,0 +1,132 @@
+|FPGA_EXP4
+clk => Counter4:u3.clk
+clk => driver:u5.clk
+segment[0] <= decoder47:u6.B[0]
+segment[1] <= decoder47:u6.B[1]
+segment[2] <= decoder47:u6.B[2]
+segment[3] <= decoder47:u6.B[3]
+segment[4] <= decoder47:u6.B[4]
+segment[5] <= decoder47:u6.B[5]
+segment[6] <= decoder47:u6.B[6]
+row[0] => driver:u5.row[0]
+row[1] => driver:u5.row[1]
+row[2] => driver:u5.row[2]
+row[3] => driver:u5.row[3]
+column[0] <= decoder24:u4.B[0]
+column[1] <= decoder24:u4.B[1]
+column[2] <= decoder24:u4.B[2]
+column[3] <= decoder24:u4.B[3]
+COM <= <VCC>
+
+
+|FPGA_EXP4|Counter4:u3
+clk => tmp_q[0].CLK
+clk => tmp_q[1].CLK
+q[0] <= tmp_q[0].DB_MAX_OUTPUT_PORT_TYPE
+q[1] <= tmp_q[1].DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP4|decoder24:u4
+A[0] => Mux0.IN5
+A[0] => Mux1.IN5
+A[0] => Mux2.IN5
+A[0] => Mux3.IN5
+A[1] => Mux0.IN4
+A[1] => Mux1.IN4
+A[1] => Mux2.IN4
+A[1] => Mux3.IN4
+B[0] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+B[1] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+B[2] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+B[3] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP4|driver:u5
+column[0] => Mux0.IN7
+column[0] => Mux1.IN7
+column[0] => Mux2.IN7
+column[0] => Mux3.IN7
+column[0] => Mux4.IN7
+column[0] => Mux5.IN7
+column[1] => Mux0.IN6
+column[1] => Mux1.IN6
+column[1] => Mux2.IN6
+column[1] => Mux3.IN6
+column[1] => Mux4.IN6
+column[1] => Mux5.IN6
+column[2] => Mux0.IN5
+column[2] => Mux1.IN5
+column[2] => Mux2.IN5
+column[2] => Mux3.IN5
+column[2] => Mux4.IN5
+column[2] => Mux5.IN5
+column[3] => Mux0.IN4
+column[3] => Mux1.IN4
+column[3] => Mux2.IN4
+column[3] => Mux3.IN4
+column[3] => Mux4.IN4
+column[3] => Mux5.IN4
+row[0] => Mux6.IN7
+row[0] => Mux7.IN7
+row[0] => Mux8.IN7
+row[0] => Mux9.IN7
+row[1] => Mux6.IN6
+row[1] => Mux7.IN6
+row[1] => Mux8.IN6
+row[1] => Mux9.IN6
+row[2] => Mux6.IN5
+row[2] => Mux7.IN5
+row[2] => Mux8.IN5
+row[2] => Mux9.IN5
+row[3] => Mux6.IN4
+row[3] => Mux7.IN4
+row[3] => Mux8.IN4
+row[3] => Mux9.IN4
+clk => state[0]~reg0.CLK
+clk => state[1]~reg0.CLK
+clk => state[2]~reg0.CLK
+clk => state[3]~reg0.CLK
+state[0] <= state[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[1] <= state[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[2] <= state[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+state[3] <= state[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|FPGA_EXP4|decoder47:u6
+A[0] => Mux0.IN19
+A[0] => Mux1.IN19
+A[0] => Mux2.IN19
+A[0] => Mux3.IN19
+A[0] => Mux4.IN19
+A[0] => Mux5.IN19
+A[0] => Mux6.IN19
+A[1] => Mux0.IN18
+A[1] => Mux1.IN18
+A[1] => Mux2.IN18
+A[1] => Mux3.IN18
+A[1] => Mux4.IN18
+A[1] => Mux5.IN18
+A[1] => Mux6.IN18
+A[2] => Mux0.IN17
+A[2] => Mux1.IN17
+A[2] => Mux2.IN17
+A[2] => Mux3.IN17
+A[2] => Mux4.IN17
+A[2] => Mux5.IN17
+A[2] => Mux6.IN17
+A[3] => Mux0.IN16
+A[3] => Mux1.IN16
+A[3] => Mux2.IN16
+A[3] => Mux3.IN16
+A[3] => Mux4.IN16
+A[3] => Mux5.IN16
+A[3] => Mux6.IN16
+B[0] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+B[1] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+B[2] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+B[3] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+B[4] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+B[5] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+B[6] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+

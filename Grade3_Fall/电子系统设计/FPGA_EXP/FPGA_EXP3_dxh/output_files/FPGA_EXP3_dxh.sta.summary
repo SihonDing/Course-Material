@@ -1,0 +1,117 @@
+------------------------------------------------------------
+TimeQuest Timing Analyzer Summary
+------------------------------------------------------------
+
+Type  : Slow 1100mV 85C Model Setup 'clk'
+Slack : -2.941
+TNS   : -55.055
+
+Type  : Slow 1100mV 85C Model Setup 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : -1.542
+TNS   : -4.590
+
+Type  : Slow 1100mV 85C Model Hold 'clk'
+Slack : -1.566
+TNS   : -1.566
+
+Type  : Slow 1100mV 85C Model Hold 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : 0.637
+TNS   : 0.000
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -21.091
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : -0.724
+TNS   : -4.411
+
+Type  : Slow 1100mV 85C Model Minimum Pulse Width 'en'
+Slack : 0.291
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Setup 'clk'
+Slack : -3.012
+TNS   : -56.633
+
+Type  : Slow 1100mV 0C Model Setup 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : -1.618
+TNS   : -4.656
+
+Type  : Slow 1100mV 0C Model Hold 'clk'
+Slack : -1.646
+TNS   : -1.646
+
+Type  : Slow 1100mV 0C Model Hold 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : 0.579
+TNS   : 0.000
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.724
+TNS   : -21.103
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : -0.724
+TNS   : -4.421
+
+Type  : Slow 1100mV 0C Model Minimum Pulse Width 'en'
+Slack : 0.297
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Setup 'clk'
+Slack : -0.838
+TNS   : -13.237
+
+Type  : Fast 1100mV 85C Model Setup 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : -0.264
+TNS   : -0.514
+
+Type  : Fast 1100mV 85C Model Hold 'clk'
+Slack : -0.602
+TNS   : -0.602
+
+Type  : Fast 1100mV 85C Model Hold 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : 0.205
+TNS   : 0.000
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'clk'
+Slack : -0.318
+TNS   : -1.940
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'en'
+Slack : -0.043
+TNS   : -0.478
+
+Type  : Fast 1100mV 85C Model Minimum Pulse Width 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : 0.146
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Setup 'clk'
+Slack : -0.797
+TNS   : -11.010
+
+Type  : Fast 1100mV 0C Model Setup 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : -0.220
+TNS   : -0.354
+
+Type  : Fast 1100mV 0C Model Hold 'clk'
+Slack : -0.684
+TNS   : -0.684
+
+Type  : Fast 1100mV 0C Model Hold 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : 0.172
+TNS   : 0.000
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'clk'
+Slack : -0.311
+TNS   : -1.943
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'en'
+Slack : -0.036
+TNS   : -0.298
+
+Type  : Fast 1100mV 0C Model Minimum Pulse Width 'LED8:u2|Div50MHz:u1|tmp_clk'
+Slack : 0.144
+TNS   : 0.000
+
+------------------------------------------------------------

@@ -1,0 +1,57 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA_EXP3 is
+	port(
+		clk: in std_logic;
+		reset: in std_logic;
+		sel: in std_logic;
+		seq_output: out std_logic;
+		detector_out: out std_logic);
+end FPGA_EXP3;
+
+architecture arch_FPGA_EXP3 of FPGA_EXP3 is
+	component seq_gen1
+		port (
+		clk: in std_logic;
+		reset: in std_logic;
+		seq1: out std_logic);
+	end component;
+	
+	component seq_gen2
+		port (
+		clk: in std_logic;
+		reset: in std_logic;
+		seq2: out std_logic);
+	end component;
+	
+	component selector
+		port(
+		sel: in std_logic;
+		seq_1: in std_logic;
+		seq_2: in std_logic;
+		seq: out std_logic);
+	end component;
+	
+	component seq_detector
+		port (
+			clk: in std_logic;
+			reset: in std_logic;
+			datainput: in std_logic;
+			detector_out: out std_logic);
+	end component;
+	
+	component FD
+		port(clk: in std_logic;
+		newclk: out std_logic
+	);
+	end component;
+	signal seq1, seq2, seq, newclk: std_logic;
+begin
+	u1: seq_gen1 port map(newclk, reset, seq1);
+	u2: seq_gen2 port map(newclk, reset, seq2);
+	u3: selector port map(sel, seq1, seq2, seq);
+	u4: seq_detector port map(newclk, reset, seq, detector_out);
+	u5: FD port map (clk, newclk);
+	seq_output <= seq;
+end arch_FPGA_EXP3;

@@ -1,0 +1,260 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/simulation/modelsim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1665744922
+Voef5zO8jgUgN8:nNZlCI:3
+04 7 12 work led8_tb arch_led8_tb 1
+=1-dc1ba1b8cf04-6349401a-1c3-403c
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+n@_opt
+OL;O;10.2c;57
+Ecounter8
+Z2 w1665728147
+Z3 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z4 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+Z5 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z6 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z7 dD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/simulation/modelsim
+Z8 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/Counter8.vhd
+Z9 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/Counter8.vhd
+l0
+L5
+VnZoU@5I`jnfCUbe8C]Kl61
+Z10 OL;C;10.2c;57
+31
+Z11 !s110 1665744921
+Z12 !s108 1665744921.549000
+Z13 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/Counter8.vhd|
+Z14 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/Counter8.vhd|
+Z15 o-93 -work work
+Z16 tExplicit 1
+!s100 iz8=]kjTVCKM?6Il2QZO^0
+!i10b 1
+!i111 0
+Aarch_counter8
+R3
+R4
+R5
+R6
+DEx4 work 8 counter8 0 22 nZoU@5I`jnfCUbe8C]Kl61
+l13
+L11
+VizIR2LcCY5VZ@Qel2A4=g3
+R10
+31
+R11
+R12
+R13
+R14
+R15
+R16
+!s100 K1z]Nd`hb;2A8Y^bT=D3j3
+!i10b 1
+!i111 0
+Edecoder38
+Z17 w1665727098
+R5
+R6
+R7
+Z18 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd
+Z19 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd
+l0
+L4
+V<dO]ANnnIIMf?E3lK_aSa2
+R10
+31
+R11
+Z20 !s108 1665744921.398000
+Z21 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd|
+Z22 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder38.vhd|
+R15
+R16
+!s100 eT:oPil11Z@V`@UXXO@:`2
+!i10b 1
+!i111 0
+Aarch_decoder38
+R5
+R6
+DEx4 work 9 decoder38 0 22 <dO]ANnnIIMf?E3lK_aSa2
+l11
+L10
+VGb@i9XOTYOGnV<[UIaK[A1
+R10
+31
+R11
+R20
+R21
+R22
+R15
+R16
+!s100 EWOL7j1;Rl;2EB>8`3^]03
+!i10b 1
+!i111 0
+Edecoder47
+Z23 w1665710196
+R5
+R6
+R7
+Z24 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder47.vhd
+Z25 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder47.vhd
+l0
+L4
+VT2U4P2BIi_OOkLU6W2AdO2
+R10
+31
+R11
+Z26 !s108 1665744921.961000
+Z27 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder47.vhd|
+Z28 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/decoder47.vhd|
+R15
+R16
+!s100 CMKQABiii:R^AfHkZYEES3
+!i10b 1
+!i111 0
+Aarch_decoder47
+R5
+R6
+DEx4 work 9 decoder47 0 22 T2U4P2BIi_OOkLU6W2AdO2
+l11
+L10
+VA6BA4LO_n_?i>_gRo_XWW3
+R10
+31
+R11
+R26
+R27
+R28
+R15
+R16
+!s100 Lln;o@;Y93i?2048Bgf530
+!i10b 1
+!i111 0
+Eled8
+Z29 w1665744890
+R3
+R4
+R5
+R6
+R7
+Z30 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8.vhd
+Z31 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8.vhd
+l0
+L5
+Vik9C:aMhlV^on>WRii9:K2
+R10
+31
+R11
+Z32 !s108 1665744921.697000
+Z33 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8.vhd|
+Z34 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8.vhd|
+R15
+R16
+!s100 Be]_8m6OcQANR:BbS<Y<B2
+!i10b 1
+!i111 0
+Aarch_led8
+R3
+R4
+R5
+R6
+DEx4 work 4 led8 0 22 ik9C:aMhlV^on>WRii9:K2
+l64
+L21
+VonF;[j^`UZJZaNE8Jaj7_2
+R10
+31
+R11
+R32
+R33
+R34
+R15
+R16
+!s100 J<N3D`n=^Td16GMF?k_bb0
+!i10b 1
+!i111 0
+Eled8_tb
+Z35 w1665727906
+R5
+R6
+R7
+Z36 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8_tb.vhd
+Z37 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8_tb.vhd
+l0
+L4
+VJ>5[07N1dakDld:0oLfNV3
+R10
+31
+R1
+Z38 !s108 1665744922.076000
+Z39 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8_tb.vhd|
+Z40 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/LED8_tb.vhd|
+R15
+R16
+!s100 zCRd@c^3zGe6V?BY9[d3R3
+!i10b 1
+!i111 0
+Aarch_led8_tb
+R5
+R6
+DEx4 work 7 led8_tb 0 22 J>5[07N1dakDld:0oLfNV3
+l29
+L7
+VIB98d;8ZcHmE_W3=l[><o0
+R10
+31
+R1
+R38
+R39
+R40
+R15
+R16
+!s100 OK8nU2MY@flz=3<RQldML0
+!i10b 1
+!i111 0
+Eselector81
+Z41 w1665727453
+R5
+R6
+R7
+Z42 8D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/selector81.vhd
+Z43 FD:/FPGA_EXP/FPGA_EXP3_dxh/LED8/selector81.vhd
+l0
+L4
+VL2J1AJcVgcW]8SBcF98m42
+R10
+31
+R11
+Z44 !s108 1665744921.864000
+Z45 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/selector81.vhd|
+Z46 !s107 D:/FPGA_EXP/FPGA_EXP3_dxh/LED8/selector81.vhd|
+R15
+R16
+!s100 mfPGEBcVU;FTGfi2c_GCm3
+!i10b 1
+!i111 0
+Aarch_selector81
+R5
+R6
+DEx4 work 10 selector81 0 22 L2J1AJcVgcW]8SBcF98m42
+l19
+L18
+VXU`k4n6RbG[lzWh0Lzic@1
+R10
+31
+R11
+R44
+R45
+R46
+R15
+R16
+!s100 8PkDF7N9BkKFG?<9L;4@O2
+!i10b 1
+!i111 0

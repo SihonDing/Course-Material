@@ -1,0 +1,299 @@
+m255
+K4
+z2
+13
+cModel Technology
+Z0 dD:/FPGA_EXP/FPGA_EXP3/simulation/modelsim
+!s112 0.1
+!i10d 8192
+!i10e 25
+!i10f 100
+T_opt
+Z1 !s110 1665736006
+VmKPiz2Xl<B0bXaDT]71FY1
+04 11 16 work seq_gen1_tb arch_seq_gen1_tb 1
+=1-dc1ba1b8cf04-63491d46-36b-5da8
+o-quiet -auto_acc_if_foreign -work work -L altera -L lpm -L sgate -L altera_mf -L altera_lnsim -L cyclonev -L rtl_work -L work +acc
+n@_opt
+OL;O;10.2c;57
+Efd
+Z2 w1665735972
+Z3 DPx3 std 6 textio 0 22 Y8d?=bLj9m4jiPLbo;>GT0
+Z4 DPx4 ieee 14 std_logic_1164 0 22 1bm?@Gd;P>[>_lN8Do9gP3
+Z5 dD:/FPGA_EXP/FPGA_EXP3/simulation/modelsim
+Z6 8D:/FPGA_EXP/FPGA_EXP3/FD.vhd
+Z7 FD:/FPGA_EXP/FPGA_EXP3/FD.vhd
+l0
+L4
+VPzM1hj78T8>?9BdIi_O=W1
+Z8 OL;C;10.2c;57
+31
+R1
+Z9 !s108 1665736006.560000
+Z10 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/FD.vhd|
+Z11 !s107 D:/FPGA_EXP/FPGA_EXP3/FD.vhd|
+Z12 o-93 -work work
+Z13 tExplicit 1
+!s100 ;@?9SVlmLC^zD:hZRPc>V0
+!i10b 1
+!i111 0
+Aarch_fd
+R3
+R4
+DEx4 work 2 fd 0 22 PzM1hj78T8>?9BdIi_O=W1
+l12
+L10
+VicdN`VU7ZLBB=0=:TTL;G3
+R8
+31
+R1
+R9
+R10
+R11
+R12
+R13
+!s100 8XLNYGWCfZGOZk2dPBD:k1
+!i10b 1
+!i111 0
+Efpga_exp3
+Z14 w1665735475
+R3
+R4
+R5
+Z15 8D:/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd
+Z16 FD:/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd
+l0
+L4
+V_FZMg6>oCRO?ST@gb_KUB0
+R8
+31
+R1
+Z17 !s108 1665736006.491000
+Z18 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd|
+Z19 !s107 D:/FPGA_EXP/FPGA_EXP3/FPGA_EXP3.vhd|
+R12
+R13
+!s100 GP>[DDHj^mNV;>T@Eo[E80
+!i10b 1
+!i111 0
+Aarch_fpga_exp3
+R3
+R4
+DEx4 work 9 fpga_exp3 0 22 _FZMg6>oCRO?ST@gb_KUB0
+l50
+L13
+VJ5<CQKVNGT_0eUVVNH0V30
+R8
+31
+R1
+R17
+R18
+R19
+R12
+R13
+!s100 :`lbmmTF84;n1__nAkU0F0
+!i10b 1
+!i111 0
+Eselector
+Z20 w1664427103
+R3
+R4
+R5
+Z21 8D:/FPGA_EXP/FPGA_EXP3/selector.vhd
+Z22 FD:/FPGA_EXP/FPGA_EXP3/selector.vhd
+l0
+L4
+V;T8kLJ1CmZHN6=Ib_Z_AD0
+R8
+31
+R1
+Z23 !s108 1665736006.352000
+Z24 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/selector.vhd|
+Z25 !s107 D:/FPGA_EXP/FPGA_EXP3/selector.vhd|
+R12
+R13
+!s100 Y;zP><XlDh39?71a@SFA?2
+!i10b 1
+!i111 0
+Aarch_select
+R3
+R4
+DEx4 work 8 selector 0 22 ;T8kLJ1CmZHN6=Ib_Z_AD0
+l13
+L12
+Vc7hmXXgoK<6>HNe9jcjAf0
+R8
+31
+R1
+R23
+R24
+R25
+R12
+R13
+!s100 ;9W7Mhgegoa`;FTcP4@X]3
+!i10b 1
+!i111 0
+Eseq_detector
+Z26 w1664460540
+R3
+R4
+R5
+Z27 8D:/FPGA_EXP/FPGA_EXP3/seq_detector.vhd
+Z28 FD:/FPGA_EXP/FPGA_EXP3/seq_detector.vhd
+l0
+L4
+V5k;_o4oHcLK^27RGZgbo10
+R8
+31
+R1
+Z29 !s108 1665736006.422000
+Z30 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/seq_detector.vhd|
+Z31 !s107 D:/FPGA_EXP/FPGA_EXP3/seq_detector.vhd|
+R12
+R13
+!s100 GQEOF4z:f?]G`=T[FVlEz2
+!i10b 1
+!i111 0
+Aarch_seq_detector
+R3
+R4
+DEx4 work 12 seq_detector 0 22 5k;_o4oHcLK^27RGZgbo10
+l15
+L12
+V4DOjj4<7_M;BB1G=ab[e^1
+R8
+31
+R1
+R29
+R30
+R31
+R12
+R13
+!s100 W0al06;WdKQRc6RWQ9MPS3
+!i10b 1
+!i111 0
+Eseq_gen1
+Z32 w1664454315
+Z33 DPx4 ieee 15 std_logic_arith 0 22 I`lKR?Ob>E^B_e2VdVLiQ0
+Z34 DPx4 ieee 18 std_logic_unsigned 0 22 @_jbHPR7i^Jh?`2fDCO`m3
+R3
+R4
+R5
+Z35 8D:/FPGA_EXP/FPGA_EXP3/seq_gen1.vhd
+Z36 FD:/FPGA_EXP/FPGA_EXP3/seq_gen1.vhd
+l0
+L5
+VA1iSCP6mYiR03hmaDzeGo2
+R8
+31
+R1
+Z37 !s108 1665736006.194000
+Z38 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/seq_gen1.vhd|
+Z39 !s107 D:/FPGA_EXP/FPGA_EXP3/seq_gen1.vhd|
+R12
+R13
+!s100 [d6e7>fmXe6D3GfScXcT41
+!i10b 1
+!i111 0
+Aarch_gen1
+R33
+R34
+R3
+R4
+DEx4 work 8 seq_gen1 0 22 A1iSCP6mYiR03hmaDzeGo2
+l15
+L12
+V<Rgej:0;Oe?<zcF03NWXd3
+R8
+31
+R1
+R37
+R38
+R39
+R12
+R13
+!s100 nbCK?na@nK8V0WR^ZJWon3
+!i10b 1
+!i111 0
+Eseq_gen1_tb
+Z40 w1664457534
+R3
+R4
+R5
+Z41 8D:/FPGA_EXP/FPGA_EXP3/seq_gen1_tb.vhd
+Z42 FD:/FPGA_EXP/FPGA_EXP3/seq_gen1_tb.vhd
+l0
+L4
+V8g>gHe[5MKWLR4ic>mhhn0
+R8
+31
+R1
+Z43 !s108 1665736006.629000
+Z44 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/seq_gen1_tb.vhd|
+Z45 !s107 D:/FPGA_EXP/FPGA_EXP3/seq_gen1_tb.vhd|
+R12
+R13
+!s100 Qk9336V4I[aBJ]=93KM>k2
+!i10b 1
+!i111 0
+Aarch_seq_gen1_tb
+R3
+R4
+DEx4 work 11 seq_gen1_tb 0 22 8g>gHe[5MKWLR4ic>mhhn0
+l15
+L7
+VJj]U7X<AT]Xh4gga>W^:_2
+R8
+31
+R1
+R43
+R44
+R45
+R12
+R13
+!s100 8D32BzEjZZ=AQkm2UX:CI1
+!i10b 1
+!i111 0
+Eseq_gen2
+Z46 w1664454321
+R33
+R34
+R3
+R4
+R5
+Z47 8D:/FPGA_EXP/FPGA_EXP3/seq_gen2.vhd
+Z48 FD:/FPGA_EXP/FPGA_EXP3/seq_gen2.vhd
+l0
+L5
+VhI_QR]eDa2^h>_SH;eSCE3
+R8
+31
+R1
+Z49 !s108 1665736006.277000
+Z50 !s90 -reportprogress|300|-93|-work|work|D:/FPGA_EXP/FPGA_EXP3/seq_gen2.vhd|
+Z51 !s107 D:/FPGA_EXP/FPGA_EXP3/seq_gen2.vhd|
+R12
+R13
+!s100 JPf8gMUMh`=;oO<nH35JG2
+!i10b 1
+!i111 0
+Aarch_gen2
+R33
+R34
+R3
+R4
+DEx4 work 8 seq_gen2 0 22 hI_QR]eDa2^h>_SH;eSCE3
+l15
+L12
+Va_PdV;FcWfzjeIQ4n5oPg0
+R8
+31
+R1
+R49
+R50
+R51
+R12
+R13
+!s100 3d7?;F?1[S^Mjf^zaEM;U1
+!i10b 1
+!i111 0

@@ -1,0 +1,36 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity LED8 is
+	port(clkin: in std_logic;
+	dout: out std_logic_vector(7 downto 0)
+	);
+end LED8;
+
+architecture arch_LED8 of LED8 is
+	component Div50MHz
+		port(clk: in std_logic;
+		clkout: out std_logic
+		);
+	end component;
+	
+	component Counter8
+		port (clk: in std_logic;
+		q: out std_logic_vector (2 downto 0)
+		);
+	end component;
+	
+	component decoder38
+		port(
+		A: in std_logic_vector (2 downto 0);
+		B:out std_logic_vector (7 downto 0)
+		);
+	end component;
+	signal clk_tmp: std_logic;
+	signal q_tmp: std_logic_vector(2 downto 0);
+begin
+	u1: Div50MHz port map (clkin, clk_tmp);
+	u2: Counter8 port map (clk_tmp, q_tmp);
+	u3: decoder38 port map (q_tmp, dout);
+end arch_LED8;

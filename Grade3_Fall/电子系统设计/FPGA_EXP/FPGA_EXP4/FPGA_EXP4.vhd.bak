@@ -1,0 +1,13 @@
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity FPGA_EXP4 is
+	port(clk: in std_logic;
+	segment: out std_logic_vector(6 downto 0);
+	row: in std_logic_vector(3 downto 0);
+	column: out std_logic_vector(3 downto 0)
+	);
+end FPGA_EXP4;
+
+architecture arch_FPGA_EXP4 of FPGA_EXP4 is
+	component 

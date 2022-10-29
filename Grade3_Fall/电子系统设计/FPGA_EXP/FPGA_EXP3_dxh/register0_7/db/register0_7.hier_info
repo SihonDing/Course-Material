@@ -1,0 +1,217 @@
+|register0_7
+sel[0] => decoder38:decode.A[0]
+sel[1] => decoder38:decode.A[1]
+sel[2] => decoder38:decode.A[2]
+datain[0] => latch4:u0.D[0]
+datain[0] => latch4:u1.D[0]
+datain[0] => latch4:u2.D[0]
+datain[0] => latch4:u3.D[0]
+datain[0] => latch4:u4.D[0]
+datain[0] => latch4:u5.D[0]
+datain[0] => latch4:u6.D[0]
+datain[0] => latch4:u7.D[0]
+datain[1] => latch4:u0.D[1]
+datain[1] => latch4:u1.D[1]
+datain[1] => latch4:u2.D[1]
+datain[1] => latch4:u3.D[1]
+datain[1] => latch4:u4.D[1]
+datain[1] => latch4:u5.D[1]
+datain[1] => latch4:u6.D[1]
+datain[1] => latch4:u7.D[1]
+datain[2] => latch4:u0.D[2]
+datain[2] => latch4:u1.D[2]
+datain[2] => latch4:u2.D[2]
+datain[2] => latch4:u3.D[2]
+datain[2] => latch4:u4.D[2]
+datain[2] => latch4:u5.D[2]
+datain[2] => latch4:u6.D[2]
+datain[2] => latch4:u7.D[2]
+datain[3] => latch4:u0.D[3]
+datain[3] => latch4:u1.D[3]
+datain[3] => latch4:u2.D[3]
+datain[3] => latch4:u3.D[3]
+datain[3] => latch4:u4.D[3]
+datain[3] => latch4:u5.D[3]
+datain[3] => latch4:u6.D[3]
+datain[3] => latch4:u7.D[3]
+en => latch4:u0.en
+en => latch4:u1.en
+en => latch4:u2.en
+en => latch4:u3.en
+en => latch4:u4.en
+en => latch4:u5.en
+en => latch4:u6.en
+en => latch4:u7.en
+d0[0] <= latch4:u0.Q[0]
+d0[1] <= latch4:u0.Q[1]
+d0[2] <= latch4:u0.Q[2]
+d0[3] <= latch4:u0.Q[3]
+d1[0] <= latch4:u1.Q[0]
+d1[1] <= latch4:u1.Q[1]
+d1[2] <= latch4:u1.Q[2]
+d1[3] <= latch4:u1.Q[3]
+d2[0] <= latch4:u2.Q[0]
+d2[1] <= latch4:u2.Q[1]
+d2[2] <= latch4:u2.Q[2]
+d2[3] <= latch4:u2.Q[3]
+d3[0] <= latch4:u3.Q[0]
+d3[1] <= latch4:u3.Q[1]
+d3[2] <= latch4:u3.Q[2]
+d3[3] <= latch4:u3.Q[3]
+d4[0] <= latch4:u4.Q[0]
+d4[1] <= latch4:u4.Q[1]
+d4[2] <= latch4:u4.Q[2]
+d4[3] <= latch4:u4.Q[3]
+d5[0] <= latch4:u5.Q[0]
+d5[1] <= latch4:u5.Q[1]
+d5[2] <= latch4:u5.Q[2]
+d5[3] <= latch4:u5.Q[3]
+d6[0] <= latch4:u6.Q[0]
+d6[1] <= latch4:u6.Q[1]
+d6[2] <= latch4:u6.Q[2]
+d6[3] <= latch4:u6.Q[3]
+d7[0] <= latch4:u7.Q[0]
+d7[1] <= latch4:u7.Q[1]
+d7[2] <= latch4:u7.Q[2]
+d7[3] <= latch4:u7.Q[3]
+
+
+|register0_7|latch4:u0
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u1
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u2
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u3
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u4
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u5
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u6
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|latch4:u7
+D[0] => Q[0]$latch.DATAIN
+D[1] => Q[1]$latch.DATAIN
+D[2] => Q[2]$latch.DATAIN
+D[3] => Q[3]$latch.DATAIN
+en => process_0.IN0
+cs => process_0.IN1
+Q[0] <= Q[0]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[1] <= Q[1]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[2] <= Q[2]$latch.DB_MAX_OUTPUT_PORT_TYPE
+Q[3] <= Q[3]$latch.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|register0_7|decoder38:decode
+A[0] => Mux0.IN10
+A[0] => Mux1.IN10
+A[0] => Mux2.IN10
+A[0] => Mux3.IN10
+A[0] => Mux4.IN10
+A[0] => Mux5.IN10
+A[0] => Mux6.IN10
+A[0] => Mux7.IN10
+A[1] => Mux0.IN9
+A[1] => Mux1.IN9
+A[1] => Mux2.IN9
+A[1] => Mux3.IN9
+A[1] => Mux4.IN9
+A[1] => Mux5.IN9
+A[1] => Mux6.IN9
+A[1] => Mux7.IN9
+A[2] => Mux0.IN8
+A[2] => Mux1.IN8
+A[2] => Mux2.IN8
+A[2] => Mux3.IN8
+A[2] => Mux4.IN8
+A[2] => Mux5.IN8
+A[2] => Mux6.IN8
+A[2] => Mux7.IN8
+B[0] <= Mux7.DB_MAX_OUTPUT_PORT_TYPE
+B[1] <= Mux6.DB_MAX_OUTPUT_PORT_TYPE
+B[2] <= Mux5.DB_MAX_OUTPUT_PORT_TYPE
+B[3] <= Mux4.DB_MAX_OUTPUT_PORT_TYPE
+B[4] <= Mux3.DB_MAX_OUTPUT_PORT_TYPE
+B[5] <= Mux2.DB_MAX_OUTPUT_PORT_TYPE
+B[6] <= Mux1.DB_MAX_OUTPUT_PORT_TYPE
+B[7] <= Mux0.DB_MAX_OUTPUT_PORT_TYPE
+
+
